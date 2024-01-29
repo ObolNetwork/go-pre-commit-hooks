@@ -4,7 +4,7 @@ import argparse
 from typing import Any, Sequence
 
 
-LICENCE_HEADER_TEXT = "// Copyright © 2022-2023 Obol Labs Inc. Licensed under the terms of a Business Source License 1.1"
+LICENCE_HEADER_TEXT = "// Copyright © 2022-2024 Obol Labs Inc. Licensed under the terms of a Business Source License 1.1"
 
 def prepend_licence_header(filename):
     with open(filename, 'r+') as f:
